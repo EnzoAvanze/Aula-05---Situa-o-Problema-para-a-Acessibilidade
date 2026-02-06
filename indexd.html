@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech News</title>
+</head>
+<body>
+    <style>
+        body{
+            transition: ease-in-out 0.6s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+    <div class="navi">
+    <h1>Tech News</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Eveniet quisquam iusto eligendi doloremque illo magni ipsa quod 
+        sapiente unde debitis corrupti obcaecati repudiandae nihil, explicabo 
+        sunt doloribus quidem animi velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate natus, aut nobis hic explicabo veritatis reprehenderit illo debitis tenetur fugiat officiis animi magnam non expedita atque maiores perspiciatis earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro saepe fugiat a fugit ipsa consequuntur cum voluptate ad labore hic in aliquid enim possimus, architecto cupiditate. Explicabo, asperiores. Inventore, magnam?</p>
+        <div class="botoes">
+    
+        <button id="darkBtn" onclick="modoDark()">🌙 Modo Dark</button>
+        <button id="lightBtn" onclick="modoLight()">☀️ Modo Light</button>
+        </div>
+    </div>
+
+<script>
+    function modoDark() {
+        document.body.style.backgroundColor = "#121212";
+        document.body.style.color = "#f5f5f5";
+    }
+
+    function modoLight() {
+        document.body.style.backgroundColor = "#f5f5f5";
+        document.body.style.color = "#121212";
+    }
+</script>
+</body>
+</html>
